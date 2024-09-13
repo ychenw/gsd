@@ -5,8 +5,8 @@ for i in a:
     sum += i   
 print(sum)
 
-avg = sum/len(a)
-print(avg)
+# avg = sum/len(a)
+# print(avg)
 
 
 # a =[0.5, 2.3, 2.5, 6.8]
