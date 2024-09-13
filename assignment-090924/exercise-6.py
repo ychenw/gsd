@@ -7,8 +7,7 @@ for rowIndex in range(rows):
     pattern = ''
     for colIndex in range(columns):
         a = random.random()  
-        probability = colIndex / (columns - 1)  
-        if a < probability:
+        if a < colIndex / (columns - 1):
             pattern += "O" 
         else:
             pattern += "."
