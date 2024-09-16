@@ -11,4 +11,5 @@ for rowIndex in range(rows):
             pattern += "O" 
         else:
             pattern += "."
+    
     print(pattern) 

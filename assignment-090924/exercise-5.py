@@ -8,4 +8,5 @@ for rowIndex in range(10):
             pattern += '/'
         else:
             pattern += '\\'
+   
     print(pattern)
